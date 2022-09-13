@@ -61,6 +61,10 @@
     .app__aboutus-content_history p {
         margin: 4rem 0;
     }
+
+    .app__wrapper_img{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -71,11 +75,20 @@
     .app__aboutus-content_knife {
         margin: 4rem 0;
     }
+
+    .app__aboutus-content_knife img{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 650px) {
     .app__aboutus-overlay img {
         width: 80%;
         height: 320px;
+    }
+
+    .app__aboutus-content_knife img{
+        display: none;
     }
 }
